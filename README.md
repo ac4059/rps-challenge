@@ -1,5 +1,19 @@
 # RPS Challenge
 
+Instructions for running the app 👇
+
+Clone this repo:
+
+$ git clone https://github.com/ac4059/rps-challenge
+In the terminal, do the following:
+
+$ cd rps-challenge
+$ bundle
+$ rackup
+Go to your browser and enter in the address bar:
+
+localhost:9292
+
 Instructions
 -------
 
