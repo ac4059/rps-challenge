@@ -4,7 +4,7 @@ feature 'Play' do
     sign_in_and_play
     select('Rock', from: 'What would you like to play with?')
     click_button('Play')
-    expect(page).to have_content('Vlad wins!')
+    expect(page).to have_content('Arjun wins!')
   end
 
   scenario "When player submits 'Scissors' and loses" do
